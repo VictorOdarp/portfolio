@@ -10,13 +10,22 @@ body{
 }
 
 .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 5% 0% 5%;
+    padding: 5% 20% 0% 20%;
 }
 
 .cabecalho-menu{
     display: flex;
-    gap: 10px;
+    gap: 40px;
+}
+
+.cabecalho-menu-link{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+.apresentacao{
+    display: flex;
+    padding: 5% 20%;
 }
