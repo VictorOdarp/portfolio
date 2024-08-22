@@ -22,10 +22,14 @@ body{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .apresentacao{
     display: flex;
     padding: 5% 20%;
+}
+
+.apresentacao-index{
+    width: 50%;
 }
