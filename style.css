@@ -10,7 +10,7 @@ body{
 }
 
 .cabecalho{
-    padding: 5% 20% 0% 20%;
+    padding: 2% 20% 0% 20%;
 }
 
 .cabecalho-menu{
@@ -28,8 +28,49 @@ body{
 .apresentacao{
     display: flex;
     padding: 5% 20%;
+    gap: 82px;
 }
 
 .apresentacao-index{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 52%;
+}
+
+.apresentacao-index strong {
+    color: rgb(116, 44, 163);
+}
+
+.apresentacao-index h1 {
+    font-size: 2.25rem;
+}
+
+.apresentacao-index p {
+    font-size: 1.5rem;
+}
+
+.apresentacao-botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.apresentacao-botoes h2 {
+    font-size: 1.5rem;
+}
+
+.apresentacao-botoes-link{
+    text-align: center;
     width: 50%;
+    padding: 3% 5%;
+    border: 2px solid rgb(116, 44, 163);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.imagem{
+    width: 30%;
 }
