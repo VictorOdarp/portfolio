@@ -11,6 +11,10 @@ body{
     background-color: black;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .cabecalho{
     padding: 2.7% 20% 0% 20%;
 }
@@ -25,6 +29,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(116, 44, 163);
     font-size: 1.75rem;
+}
+
+.cabecalho-menu-link:hover{
+    color: white;
 }
 
 .apresentacao{
@@ -81,6 +89,10 @@ body{
     text-decoration: none;
     font-size: 1.25rem;
     font-family: Montserrat, sans-serif;
+}
+
+.apresentacao-botoes-link:hover{
+    background-color: #272727;
 }
 
 .sobremim{
@@ -155,13 +167,100 @@ body{
 }
 
 .container-formacao-conteudo{
-    padding: 2% 4% 2% 4% ;
+    padding: 2% 5% 2% 5% ;
     background-color: #272727;
     border-radius: 12px;
+    box-shadow: 20px 15px 30px black;
 }
 
 .container-formacao-conteudo img{
     width: 150px;
+}
+
+.portfolio{
+    display: flex;
+    padding: 4% 20%;
+}
+
+.portfolio-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.paragrafo-portfolio{
+    padding: 0% 30% 2% 0%;
+}
+
+.portfolio h1{
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 3rem;
+}
+
+.portfolio p{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.25rem;
+}
+
+.ancora-portfolio{
+    text-decoration: none;
+    color: rgb(116, 44, 163);
+    padding: 0.3%;
+    border-radius: 10px;
+    background-color: #272727;
+}
+
+.imagens-portfolio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.imagens-portfolio img{
+    border: 3px solid rgb(116, 44, 163);
+    border-radius: 12px;
+    width: 70%;
+}
+
+.contato{
+    display: flex;
+    padding: 0% 20% 5% 20%;
+    justify-content: center;
+}
+
+.contato h1{
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 3rem;
+}
+
+.contato-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: MontSerrat, sans-serif;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+}
+
+button{
+    margin: 5% 0%;
+    font-family: MontSerrat, sans-serif;
+    font-weight: 900;
+    cursor: pointer;
 }
 
 .container-rodape{

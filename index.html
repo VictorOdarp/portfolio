@@ -10,14 +10,14 @@
 <body>
     <header class="cabecalho">
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-link" href="">Home</a>
-            <a class="cabecalho-menu-link" href="">Sobre mim</a>
-            <a class="cabecalho-menu-link" href="">Formação</a>
-            <a class="cabecalho-menu-link" href="">Portfolio</a>
-            <a class="cabecalho-menu-link" href="">Contato</a>
+            <a class="cabecalho-menu-link" href="#apresentacao">Home</a>
+            <a class="cabecalho-menu-link" href="#sobremim">Sobre mim</a>
+            <a class="cabecalho-menu-link" href="#formacao">Formação</a>
+            <a class="cabecalho-menu-link" href="#portfolio">Portfolio</a>
+            <a class="cabecalho-menu-link" href="#contato">Contato</a>
         </nav>
     </header>
-    <main class="apresentacao">
+    <main id="apresentacao" class="apresentacao">
         <section class="apresentacao-index">
             <h1>Especialista em Logística rumo ao <strong>Marketing e Tecnologia</strong></h1>
             <p>Olá! meu nome é Victor Eduardo, profissional com 6 anos de experiência em logística e planejamento na indústria metalúrgica. Estou focado em seguir carreira nas áreas de marketing e tecnologia, aplicando meus conhecimentos para otimizar processos e criar estratégias inovadoras.</p>
@@ -31,11 +31,11 @@
         <img class="imagem" src="imagens/euestudo.jpeg" alt="Victor">
     </main>
 
-    <main class="sobremim">
+    <main id="sobremim" class="sobremim">
         <section class="sobremim-conteudo">
             <h2>Sobre mim</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt enim doloribus debitis, vel porro, magnam repellendus repudiandae delectus beatae fugit sed voluptatum dolore a voluptate fugiat sit inventore, ex maiores!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae voluptate eius illo sit, optio sint laudantium fuga. Minima quae neque ad libero natus hic magnam nam rem sapiente cum, sed temporibus consectetur ipsum id maxime eaque laudantium explicabo alias et. Ipsa suscipit velit, vitae illo minima in vero repellat similique aliquam ad. Iusto suscipit voluptates nostrum quis odio culpa pariatur molestiae vitae magni dolores quam nesciunt, corporis minima enim repellat iure illo error praesentium. Ullam sequi aliquam at numquam sunt ipsam sed repellendus a dolor! Ipsa sapiente nobis temporibus assumenda expedita, omnis tenetur, esse dolor nesciunt impedit voluptate nulla?</p>
+            <p>Com 24 anos, trilhei uma jornada significativa na indústria metalúrgica, onde iniciei minha carreira como almoxarife. Em seis anos, minha dedicação e foco em resultados me levaram a assumir o cargo de encarregado de almoxarifado e PCP, onde gerencio operações e planejo a produção, garantindo a eficiência e qualidade dos processos.</p>
+            <p>Paralelamente, busco sempre expandir meus horizontes e conhecimentos. Atualmente, estou me especializando em desenvolvimento de software, uma área que me fascina pela capacidade de criar soluções inovadoras. Além disso, estudo marketing com o objetivo de entender melhor as dinâmicas do mercado e aplicá-las em futuros empreendimentos. Meu grande sonho é construir minha própria empresa, unindo minhas habilidades técnicas e estratégicas para alcançar novos patamares, sempre com o desejo de transformar ideias em realidade e deixar um legado positivo.</p>
         </section>
         <div class="container-imagens">
             <img class="container-imagens-imagem" src="imagens/1.png" alt="">
@@ -44,12 +44,12 @@
         </div>
     </main>
 
-    <main class="formacao">
+    <main id="formacao" class="formacao">
         <section class="formacao-conteudo">
             <h2>Formação</h1>
             <div class="container-formacao">
                 <div class="container-formacao-conteudo">
-                    <img src="imagens/1.png" alt="">
+                    <img src="imagens/fundamental.png" alt="">
                     <ul>
                         <li>Ensino Fundamental</li>
                     </ul>
@@ -57,7 +57,7 @@
                     <p>Concluído | 2014</p>
                 </div>
                 <div class="container-formacao-conteudo">
-                    <img src="imagens/1.png" alt="">
+                    <img src="imagens/medio.png" alt="">
                     <ul>
                         <li>Ensino Médio</li>
                     </ul>
@@ -65,7 +65,7 @@
                     <p>Concluído | 2023</p>
                 </div>
                 <div class="container-formacao-conteudo">
-                    <img src="imagens/1.png" alt="">
+                    <img src="imagens/superior.png" alt="">
                     <ul>
                         <li>Ánalise e Desen. de Sistemas</li>
                     </ul>
@@ -74,8 +74,47 @@
                 </div>
             </div>
         </section>
+    </main> 
+
+    <main id="portfolio" class="portfolio">
+        <section class="portfolio-conteudo">
+            <h1>Portfolio</h1>
+            <p class="paragrafo-portfolio">Meu portfólio contém pequenos projetos que utilizo para praticar e expandir meu conhecimento. Comecei meus estudos imerso nos conteúdos de Backend e agora estou estudando Frontend, com o objetivo de criar soluções completas.</p>
+            <p>Veja outros projetos: <a class="ancora-portfolio" href="https://github.com/victorodarp"><i class="fa-brands fa-github" style="color: #ffffff;"></i> GitHub</a></p>
+            <div class="imagens-portfolio">
+                <img src="imagens/apibanco.png" alt="">
+                <p>Neste exemplo, desenvolvi uma API de Banco que inclui funcionalidades como transferências, depósitos, criação de usuário e criação de conta. Procurei estruturar o código de forma organizada, visando facilidade de manutenção.</p>
+                <img src="imagens/apilista.png" alt="">
+                <p>Desenvolvi uma API de Lista de Tarefas, onde é possível criar usuários e atribuir tarefas a eles. Utilizei Enums para verificar se a tarefa foi concluída ou está em andamento.</p>
+                <img src="imagens/livro.PNG" alt="">
+                <p>Neste exemplo, dando continuidade às práticas de desenvolvimento, desenvolvi uma API de Livros e Autores, onde cada livro é associado aos seus respectivos autores. Meu foco foi criar um código bem estruturado e de fácil manutenção.</p>
+                <img src="imagens/conexao.PNG" alt="">
+                <p>Desenvolvi um site que direciona os usuários para as melhores instituições que buscam erradicar a pobreza em Curitiba-PR, utilizando HTML, CSS e JavaScript. Este foi o meu primeiro site, e estou focado em melhorar tanto a estrutura do código quanto o desenvolvimento de layouts mais aprimorados.</p>
+                <img src="imagens/portfolio.png" alt="">
+                <p>Desenvolvi este site enquanto acompanhava os cursos da Alura. Inicialmente, procurei desenvolver sozinho, usando o conhecimento que já tinha, e depois ajustei o projeto conforme as melhores práticas e estruturas de código mostradas no curso. Este portfólio simples tem servido como inspiração para o portfólio que você está conhecendo agora.</p>
+                <img src="imagens/calculadora.PNG" alt="">
+                <p>Neste exemplo simples, estou aprendendo a utilizar JavaScript e decidi criar uma calculadora de quantidades. O objetivo é inserir valores e obter o resultado de quantas peças podem ser produzidas com uma certa quantidade de material. Os últimos resultados são registrados em um bloco vermelho. Pretendo estilizar e melhorar este projeto para torná-lo mais funcional e visualmente atraente.</p>
+            </div>
+        </section>
     </main>
-    <h1>teste</h1>
+
+    <main id="contato" class="contato">
+        <section class="contato-conteudo">
+            <h1>Contato</h1>
+            <form action="" method="post">
+                <label for="name">Nome</label>
+                <input type="text" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
     <footer class="container-rodape">
         <p>Desenvolvido por Victor Eduardo</p>
     </footer>
