@@ -1,29 +1,36 @@
+/* Link para a importação das fonts utilizadas */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Zeramento das dimensões da página */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Cor da fonte da página e a cor de fundo da mesma */
 body{
     color: white;
     background-color: black;
 }
 
+/* Comando a para suavizar o ida da tela quando houver as navegações entre as sessões pelo conteúdo HTML */
 html{
     scroll-behavior: smooth;
 }
 
+/* Dimensionamento do cabeçalho */
 .cabecalho{
     padding: 2.7% 20% 0% 20%;
 }
 
+/* Dimensionamento do menu do cabeçalho */
 .cabecalho-menu{
     display: flex;
     gap: 40px;
 }
 
+/* Estilizações menu-links do cabeçalho */
 .cabecalho-menu-link{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,16 +38,19 @@ html{
     font-size: 1.75rem;
 }
 
+/* Efeito quando passar o mouse por cima dos links do cabeçalho */
 .cabecalho-menu-link:hover{
     color: white;
 }
 
+/* Dimensionamento de apresentação */
 .apresentacao{
     display: flex;
     padding: 3% 20%;
     gap: 82px;
 }
 
+/* Dimensionamento do conteúdo de apresentação */
 .apresentacao-index{
     display: flex;
     flex-direction: column;
@@ -48,25 +58,30 @@ html{
     width: 60%;
 }
 
+/* Cor do strong do titulo */
 .apresentacao-index strong {
     color: rgb(116, 44, 163);
 }
 
+/* Estilização da fonte do titulo */
 .apresentacao-index h1 {
     font-size: 3rem;
     font-family: Barlow Condensed, sans-serif;
 }
 
+/* Estilização do parágrafo na apresentação */
 .apresentacao-index p {
     font-size: 1.25rem;
     font-family: Montserrat;
 }
 
+/* Estilização da imagem com bordas arredondadas */
 .imagem{
     width: 40%;
     border-radius: 20px;
 }
 
+/* Estilização do container de botões na apresentação */
 .apresentacao-botoes{
     display: flex;
     flex-direction: column;
@@ -75,11 +90,13 @@ html{
     gap: 20px;
 }
 
+/* Estilização do título nos botões de apresentação */
 .apresentacao-botoes h2 {
     font-size: 1.5rem;
     font-family: Barlow Condensed, sans-serif;
 }
 
+/* Estilização do link nos botões de apresentação */
 .apresentacao-botoes-link{
     text-align: center;
     width: 55%;
@@ -91,16 +108,19 @@ html{
     font-family: Montserrat, sans-serif;
 }
 
+/* Estilização do hover do link nos botões de apresentação */
 .apresentacao-botoes-link:hover{
     background-color: #272727;
 }
 
+/* Estilização do container 'sobre mim' */
 .sobremim{
     display: flex;
     padding: 4% 20%;
     gap: 80px;
 }
 
+/* Estilização do conteúdo na seção 'sobre mim' */
 .sobremim-conteudo{
     display: flex;  
     flex-direction: column;
@@ -108,16 +128,19 @@ html{
     width: 80%;
 }
 
+/* Estilização do título na seção 'sobre mim' */
 .sobremim-conteudo h2{
     font-size: 3rem;
     font-family: Barlow Condensed, sans-serif;
 }
 
+/* Estilização do parágrafo na seção 'sobre mim' */
 .sobremim-conteudo p{
     font-size: 1.25rem;
     font-family: Montserrat, sans-serif;
 }
 
+/* Estilização do container de imagens na seção 'sobre mim' */
 .container-imagens{
     display: flex;
     flex-direction: column;
@@ -126,17 +149,20 @@ html{
     width: 15%;
 }
 
+/* Estilização da imagem no container de imagens */
 .container-imagens-imagem{
     width: 80%;
     border-radius: 20px;
 }
 
+/* Estilização da seção de formação */
 .formacao{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
+/* Estilização do conteúdo na seção de formação */
 .formacao-conteudo{
     display: flex;
     flex-direction: column;
@@ -145,11 +171,13 @@ html{
     width: 60%;
 }
 
+/* Estilização do título na seção de formação */
 .formacao-conteudo h2{
     font-size: 3rem;
     font-family: Barlow Condensed, sans-serif;
 }
 
+/* Estilização do container na seção de formação */
 .container-formacao{
     display: flex;
     justify-content: space-around;
@@ -160,12 +188,14 @@ html{
     border-radius: 12px;
 }
 
+/* Estilização do texto na lista e parágrafos da seção de formação */
 .container-formacao ul, li, p{
     font-size: 1rem;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
 }
 
+/* Estilização do conteúdo no container de formação */
 .container-formacao-conteudo{
     padding: 2% 5% 2% 5% ;
     background-color: #272727;
@@ -173,35 +203,42 @@ html{
     box-shadow: 20px 15px 30px black;
 }
 
+/* Estilização da imagem no conteúdo do container de formação */
 .container-formacao-conteudo img{
     width: 150px;
 }
 
+/* Estilização da seção de portfólio */
 .portfolio{
     display: flex;
     padding: 4% 20%;
 }
 
+/* Estilização do conteúdo na seção de portfólio */
 .portfolio-conteudo{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
+/* Estilização do parágrafo na seção de portfólio */
 .paragrafo-portfolio{
     padding: 0% 30% 2% 0%;
 }
 
+/* Estilização do título na seção de portfólio */
 .portfolio h1{
     font-family: Barlow Condensed, sans-serif;
     font-size: 3rem;
 }
 
+/* Estilização do parágrafo na seção de portfólio */
 .portfolio p{
     font-family: Montserrat, sans-serif;
     font-size: 1.25rem;
 }
 
+/* Estilização do link na seção de portfólio */
 .ancora-portfolio{
     text-decoration: none;
     color: rgb(116, 44, 163);
@@ -210,6 +247,7 @@ html{
     background-color: #272727;
 }
 
+/* Estilização das imagens na seção de portfólio */
 .imagens-portfolio{
     display: flex;
     justify-content: center;
@@ -217,23 +255,28 @@ html{
     flex-wrap: wrap;
     gap: 15px;
 }
+
+/* Estilização da imagem nas imagens do portfólio */
 .imagens-portfolio img{
     border: 3px solid rgb(116, 44, 163);
     border-radius: 12px;
     width: 70%;
 }
 
+/* Estilização da seção de contato */
 .contato{
     display: flex;
     padding: 0% 20% 5% 20%;
     justify-content: center;
 }
 
+/* Estilização do título na seção de contato */
 .contato h1{
     font-family: Barlow Condensed, sans-serif;
     font-size: 3rem;
 }
 
+/* Estilização do conteúdo na seção de contato */
 .contato-conteudo{
     display: flex;
     flex-direction: column;
@@ -242,20 +285,24 @@ html{
     gap: 20px;
 }
 
+/* Estilização do formulário */
 form{
     display: flex;
     flex-direction: column;
 }
 
+/* Estilização do label no formulário */
 label{
     font-family: MontSerrat, sans-serif;
     text-align: center;
 }
 
+/* Estilização do input no formulário */
 input{
     width: 100%;
 }
 
+/* Estilização do botão no formulário */
 button{
     margin: 5% 0%;
     font-family: MontSerrat, sans-serif;
@@ -263,6 +310,7 @@ button{
     cursor: pointer;
 }
 
+/* Estilização do container no rodapé */
 .container-rodape{
     width: 100%;
     background-color: rgb(116, 44, 163);
@@ -270,9 +318,9 @@ button{
     padding: 1.5%;
 }
 
+/* Estilização do parágrafo no rodapé */
 .container-rodape p {
     font-family: Montserrat;
     font-weight: 200;
     font-size: 1.25rem;
-
 }
