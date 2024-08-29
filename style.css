@@ -108,6 +108,16 @@ html{
     font-family: Montserrat, sans-serif;
 }
 
+/* Quando o botão é visitado, a cor permanece a mesma */
+.apresentacao-botoes-link:visited {
+    color: #742ca3;
+}
+
+/* Quando o botão é clicado, ele muda rapidamente para a cor destacada abaixo */
+.apresentacao-botoes-link:active {
+    color: #272727;
+}
+
 /* Estilização do hover do link nos botões de apresentação */
 .apresentacao-botoes-link:hover{
     background-color: #272727;
