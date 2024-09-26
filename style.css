@@ -46,7 +46,7 @@ html{
 /* Dimensionamento de apresentação */
 .apresentacao{
     display: flex;
-    padding: 3% 20%;
+    padding: 4% 20%;
     gap: 82px;
 }
 
@@ -167,6 +167,7 @@ html{
 
 .skills{
     padding: 4% 20%;
+    background-color: #111111;
 }
 
 .skills-conteudo{
@@ -174,13 +175,16 @@ html{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+}
+
+.skills-conteudo h2{
     font-family: Barlow Condensed, sans-serif;
     font-size: 3rem;
 }
 
 .skills-conteudo-icons{
     display: flex;
-    font-size: 9rem;
+    font-size: 7rem;
     gap: 142px;
 }
 
@@ -196,8 +200,47 @@ html{
     color: white;
 }
 
+.hobbies{
+    padding: 4% 20%;
+    margin: 0.5% 0%;
+    background-color: #111111;
+}
+
+.hobbies-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.hobbies-conteudo-icons{
+    display: flex;
+    font-size: 6rem;
+    gap: 142px;
+}
+
+.hobbies-conteudo-icons-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #742ca3;
+    white-space: nowrap;
+    gap: 12px;
+}
+
+.hobbies-conteudo-icons-items p{
+    color: white;
+}
+
+
+.hobbies-conteudo h2{
+    font-size: 3rem;
+    font-family: Barlow Condensed, sans-serif;
+}
+
 /* Estilização da seção de formação */
 .formacao{
+    padding: 4% 0%;
     display: flex;
     justify-content: center;
     text-align: center;
